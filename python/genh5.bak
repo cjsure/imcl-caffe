@@ -1,0 +1,96 @@
+# -*-coding=utf-8-*-
+
+import h5py, os
+import caffe
+import numpy as np
+
+ROOT = 'D:/Project/caffe-windows-master/data/Blur1000/'
+PHASE = 'test'
+SIZE = 170 # fixed size to all images
+HD5SIZE = 100
+INI_VALUE = -1000
+
+def load_caffe_format_img(img_path):
+    img = caffe.io.load_image(img_path)
+    img = caffe.io.resize( img, (SIZE, SIZE, 3) ) # resize to fixed size
+    img = np.swapaxes(img, 0, 2)
+    img = np.swapaxes(img, 1, 2)
+    return img
+
+
+'''def allocate_XY(num, image_size):
+    # If you do not have enough memory split data into
+    # multiple batches and generate multiple separate h5 files
+    X = np.zeros((num, 3, image_size[0], image_size[1]), dtype='f4') + INI_VALUE
+    y = np.zeros((1, num), dtype='f4' ) + INI_VALUE
+    return X, y'''
+
+
+def write_XY_h5(h5name, X, y):
+    with h5py.File(h5name, 'w') as H:
+        H.create_dataset('X', data=X)
+        H.create_dataset('y', data=y)
+
+
+def load_image_from_line(line):
+    sp = line.split(' ')
+    img_path = ROOT + os.sep + sp[0]
+    if not os.path.exists(img_path):
+        print 'file not exist {}'.format(img_path)
+        return False;
+    img = load_caffe_format_img(img_path)
+    return img
+
+def augment_img(img):
+
+    return imgs
+
+
+#X, y = allocate_XY(HD5SIZE, (SIZE, SIZE))
+X = np.array([0, 3, SIZE, SIZE])
+y = np.array([0])
+with open( ROOT + os.sep + 'test.txt', 'r' ) as T :
+    lines = T.readlines()
+count = 0
+for line in lines:
+    '''sp = line.split(' ')
+    img_path = ROOT + os.sep + sp[0]
+    if not os.path.exists(img_path):
+        print 'file not exist {}'.format(img_path)
+        continue;
+    img = load_caffe_format_img(img_path)'''
+    img = load_image_from_line(line)
+    if img is False:
+        continue
+
+    imgs, ys = augment_img(img, y)
+    X.vstack(imgs)
+    y.vstack(ys)
+    # you may apply other input transformations here...
+    '''X[count % HD5SIZE ] = img
+    y[0, count % HD5SIZE ] = float(sp[1])
+    count += 1'''
+
+    #if count % HD5SIZE == 0:
+    if X.shape[0] % HD5SIZE == 0:
+        #valid_ind = (y != INI_VALUE)  # 避免对X，Y填充不满的情况
+        write_XY_h5(ROOT + os.sep + PHASE + str(count) + '.h5', X, y)
+        #write_XY_h5(ROOT + os.sep + PHASE + str(count) + '.h5', X[np.squeeze(valid_ind)], y[valid_ind])
+        '''with h5py.File(ROOT + os.sep + PHASE + str(count) + '.h5','w') as H:
+            H.create_dataset('X', data=X[np.squeeze(valid_ind)]) # note the name X given to the dataset!
+            H.create_dataset('y', data=y[valid_ind]) # note the name y given to the dataset!'''
+
+        with open(ROOT + os.sep + PHASE + '_h5_list.txt', 'a') as L:
+            L.write(ROOT + os.sep + PHASE + str(count) + '.h5\n') # list all h5 files you are going to use
+        #X, y = allocate_XY(HD5SIZE, (SIZE, SIZE))
+
+'''valid_ind = (y != INI_VALUE)
+with h5py.File(ROOT + os.sep + PHASE + str(count) + '.h5','w') as H:
+    H.create_dataset('X', data=X[np.squeeze(valid_ind)]) # note the name X given to the dataset!
+    H.create_dataset('y', data=y[valid_ind]) # note the name y given to the dataset!'''
+
+valid_ind = (y != INI_VALUE)  # 避免对X，Y填充不满的情况
+write_XY_h5(ROOT + os.sep + PHASE + str(count) + '.h5', X[np.squeeze(valid_ind)], y[valid_ind])
+
+with open(ROOT + os.sep + PHASE + '_h5_list.txt', 'a') as L:
+    L.write(ROOT + os.sep + PHASE + str(count) + '.h5') # list all h5 files you are going to use
