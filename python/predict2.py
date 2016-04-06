@@ -10,11 +10,11 @@ import time
 import csv
 
 #caffe_root = './caffe'
-NET_FILE = 'D:\\Project\\caffe-windows-master\\models\\bvlc_alexnet-sur\\2016011161007\\train_val-deploy.prototxt'
-PARAM_FILE = 'D:\\Project\\caffe-windows-master\\models\\bvlc_alexnet-sur\\2016011161007\\alexnet_train2016011161007_iter_29593.caffemodel'
+NET_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\201604061011\\train_val-deploy.prototxt'
+PARAM_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\201604061011\\lenet_iter_5000.caffemodel'
 #img_path = 'D:/Project/caffe-windows-master/data/Blur1000/test/132.BMP'
-IMAGE_ROOT = 'D:/Project/caffe-windows-master/data/Blur2000/test/'
-GROUND_TRUTH = 'D:/Project/caffe-windows-master/data/Blur2000/test.proto'
+IMAGE_ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/Blur2000/test/'
+GROUND_TRUTH = 'D:/Project/caffe-windows-master-zhangjunhui/data/Blur2000/test.proto'
 SZ = 170
 debug = False
 debug_num = -100

@@ -8,9 +8,9 @@ import img_mani
 import label_file_util as label_util
 import random
 
-ROOT = 'D:/Project/caffe-windows-master/data/Blur2000/'
+ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/Blur2000/'
 PHASE = 'train'
-LABEL_FILE = 'D:/Project/caffe-windows-master/data/Blur2000/' + PHASE + '.proto'
+LABEL_FILE = 'D:/Project/caffe-windows-master-zhangjunhui/data/Blur2000/' + PHASE + '.proto'
 
 SIZE = 170 # fixed size to all images
 HD5SIZE = 800
@@ -107,7 +107,7 @@ def convert2h5data():
     file_list, score_list = shuffleL1L2(file_list, score_list)
 
     for path, y in zip(file_list, score_list):
-        print 'processing ' + path
+        print 'processing '+ str(count) + ':' + path
         img = load_image(ROOT + os.sep + path)
         if img is False:
             continue

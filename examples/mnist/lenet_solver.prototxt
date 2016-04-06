@@ -4,7 +4,7 @@ net: "examples/mnist/Mnist_demo_LeNet.prototxt"
 # In the case of MNIST, we have test batch size 100 and 100 test iterations,
 # covering the full 10,000 testing images.
 test_iter: 100
-# Carry out testing every 500 training iterations.
+# Carry out testing every 500 training examples/mnistiterations.
 test_interval: 500
 # The base learning rate, momentum and the weight decay of the network.
 base_lr: 0.01
