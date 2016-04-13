@@ -3,7 +3,7 @@ import numpy as np
 import os
 import skimage.io as skio
 
-ROOT = 'D:/Project/caffe-windows-master/data/Blur1500/'
+ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/Blur4000/'
 
 
 def load_h5(h5_path):
@@ -13,7 +13,7 @@ def load_h5(h5_path):
 
 
 def test1():
-    data, key = load_h5(ROOT + os.sep + 'train320.h5')
+    data, key = load_h5(ROOT + os.sep + 'test320.h5')
     X = data['X']
     img = np.squeeze(X[700])
     score = data['y'][700]
