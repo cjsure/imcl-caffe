@@ -4,7 +4,7 @@ layer {
    top: "X" # same name as given in create_dataset!
    top: "y"
    hdf5_data_param {
-     source: "D:\\Project\\caffe-windows-master-zhangjunhui\\data\\Blur2000\\train_h5_list.txt" 
+     source: "D:\\Project\\caffe-windows-master-zhangjunhui\\data\\Blur4000\\train_h5_list.txt" 
      batch_size: 100
    }
    include { phase:TRAIN }
@@ -14,7 +14,7 @@ layer {
    top: "X" 
    top: "y"
    hdf5_data_param {
-     source: "D:\\Project\\caffe-windows-master-zhangjunhui\\data\\Blur2000\\test_h5_list.txt" 
+     source: "D:\\Project\\caffe-windows-master-zhangjunhui\\data\\Blur4000\\test_h5_list.txt" 
      batch_size: 100
    }
    include { phase:TEST }
@@ -84,7 +84,7 @@ layer {
     kernel_size: 11
     stride: 2
     weight_filler {
-      type: "gaussian"
+      type: "gaussian"         
       std: 0.01
     }
     bias_filler {

@@ -10,5 +10,5 @@ max_iter: 100000
 momentum: 0.9
 weight_decay: 0.0005
 snapshot: 5000
-snapshot_prefix: "models/bvlc_alexnet-sur/alexnet_train2016011161007"
+snapshot_prefix: "models/bvlc_alexnet-sur/alexnet_train201604211003"
 solver_mode: GPU

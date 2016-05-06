@@ -11,13 +11,14 @@ import csv
 
 #caffe_root = './caffe'
 NET_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\train_val-deploy.prototxt'
-PARAM_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\alexnet_train201604102300_iter_10000.caffemodel'
+PARAM_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\alexnet_train201605051021_iter_5000.caffemodel'
 #img_path = 'D:/Project/caffe-windows-master/data/Blur1000/test/132.BMP'
-IMAGE_ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/Blur4000/test/'
-GROUND_TRUTH = 'D:/Project/caffe-windows-master-zhangjunhui/data/Blur4000/test.proto'
-SZ = 170
+IMAGE_ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/gray/gray/'
+GROUND_TRUTH = 'D:/Project/caffe-windows-master-zhangjunhui/data/gray/test.proto'
+SZ = 170#227|170
 debug = False
 debug_num = -100
+back_end = '*.jpg'
 
 ###################################set mode
 caffe.set_mode_gpu()
@@ -37,7 +38,7 @@ def predict(image_path):
 
 
 def predict_batch(image_dir):
-    name_list = glob.glob(image_dir + os.sep + '*.jpg')
+    name_list = glob.glob(image_dir + os.sep + back_end)
     score_record = {}
     import time
 
@@ -84,7 +85,6 @@ def test_case1():
 
 def process():
     score = predict_batch(IMAGE_ROOT)
-    print score
     #gt = label_util.load_groundtruth(GROUND_TRUTH)
     gt = label_util.load_gt_dict(GROUND_TRUTH, split_name=True)
     inter_score, inter_gt, interkey = intersect(score, gt)

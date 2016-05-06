@@ -1,0 +1,2839 @@
+filelist {
+  root: "C:/root_path/"
+  file {
+    name: "blur/b00000005209.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/340.bmp"
+    gold_score: 0.912528942629
+  }
+  file {
+    name: "blur/1010.bmp"
+    gold_score: 0.740159506046
+  }
+  file {
+    name: "blur/2280.bmp"
+    gold_score: 0.413429379985
+  }
+  file {
+    name: "blur/1168.bmp"
+    gold_score: 0.69951119115
+  }
+  file {
+    name: "blur/b00000006198.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/410.bmp"
+    gold_score: 0.894520195524
+  }
+  file {
+    name: "blur/b00000010058.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1366.bmp"
+    gold_score: 0.648572163622
+  }
+  file {
+    name: "blur/1122.bmp"
+    gold_score: 0.711345510677
+  }
+  file {
+    name: "blur/804.bmp"
+    gold_score: 0.7931566761
+  }
+  file {
+    name: "blur/2845.bmp"
+    gold_score: 0.26807306406
+  }
+  file {
+    name: "blur/b00000008321.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2627.bmp"
+    gold_score: 0.324157447903
+  }
+  file {
+    name: "blur/2534.bmp"
+    gold_score: 0.348083354772
+  }
+  file {
+    name: "blur/2219.bmp"
+    gold_score: 0.429122716748
+  }
+  file {
+    name: "blur/164.bmp"
+    gold_score: 0.957808078209
+  }
+  file {
+    name: "blur/2391.bmp"
+    gold_score: 0.384872652431
+  }
+  file {
+    name: "blur/1313.bmp"
+    gold_score: 0.66220735786
+  }
+  file {
+    name: "blur/b00000000025.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005233.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004000.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2892.bmp"
+    gold_score: 0.255981476717
+  }
+  file {
+    name: "blur/b00000001335.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2518.bmp"
+    gold_score: 0.352199639825
+  }
+  file {
+    name: "blur/b00000004860.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009018.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004683.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2115.bmp"
+    gold_score: 0.455878569591
+  }
+  file {
+    name: "blur/2654.bmp"
+    gold_score: 0.317211216877
+  }
+  file {
+    name: "blur/2269.bmp"
+    gold_score: 0.416259325958
+  }
+  file {
+    name: "blur/b00000004705.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000007703.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000002391.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000008682.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1998.bmp"
+    gold_score: 0.485978904039
+  }
+  file {
+    name: "blur/b00000008184.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/562.bmp"
+    gold_score: 0.855415487523
+  }
+  file {
+    name: "blur/b00000000844.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2811.bmp"
+    gold_score: 0.276820169797
+  }
+  file {
+    name: "blur/2802.bmp"
+    gold_score: 0.279135580139
+  }
+  file {
+    name: "blur/b00000001699.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3178.bmp"
+    gold_score: 0.1824028814
+  }
+  file {
+    name: "blur/b00000007578.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000002140.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1111.bmp"
+    gold_score: 0.71417545665
+  }
+  file {
+    name: "blur/b00000004673.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1715.bmp"
+    gold_score: 0.558785695909
+  }
+  file {
+    name: "blur/b00000005456.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000008621.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009858.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2045.bmp"
+    gold_score: 0.473887316697
+  }
+  file {
+    name: "blur/b00000001528.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004757.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2348.bmp"
+    gold_score: 0.39593516851
+  }
+  file {
+    name: "blur/b00000000449.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009257.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1096.bmp"
+    gold_score: 0.718034473887
+  }
+  file {
+    name: "blur/b00000002397.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/766.bmp"
+    gold_score: 0.8029328531
+  }
+  file {
+    name: "blur/b00000007591.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2752.bmp"
+    gold_score: 0.291998970929
+  }
+  file {
+    name: "blur/b00000006768.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004777.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3419.bmp"
+    gold_score: 0.120401337793
+  }
+  file {
+    name: "blur/289.bmp"
+    gold_score: 0.925649601235
+  }
+  file {
+    name: "blur/b00000005093.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005225.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1157.bmp"
+    gold_score: 0.702341137124
+  }
+  file {
+    name: "blur/208.bmp"
+    gold_score: 0.946488294314
+  }
+  file {
+    name: "blur/1013.bmp"
+    gold_score: 0.739387702598
+  }
+  file {
+    name: "blur/b00000007413.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2252.bmp"
+    gold_score: 0.420632878827
+  }
+  file {
+    name: "blur/1635.bmp"
+    gold_score: 0.579367121173
+  }
+  file {
+    name: "blur/2407.bmp"
+    gold_score: 0.380756367378
+  }
+  file {
+    name: "blur/3414.bmp"
+    gold_score: 0.121687676872
+  }
+  file {
+    name: "blur/809.bmp"
+    gold_score: 0.791870337021
+  }
+  file {
+    name: "blur/1410.bmp"
+    gold_score: 0.637252379727
+  }
+  file {
+    name: "blur/981.bmp"
+    gold_score: 0.747620272704
+  }
+  file {
+    name: "blur/357.bmp"
+    gold_score: 0.908155389761
+  }
+  file {
+    name: "blur/1488.bmp"
+    gold_score: 0.617185490095
+  }
+  file {
+    name: "blur/b00000004923.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000010055.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3424.bmp"
+    gold_score: 0.119114998714
+  }
+  file {
+    name: "blur/3522.bmp"
+    gold_score: 0.0939027527656
+  }
+  file {
+    name: "blur/1003.bmp"
+    gold_score: 0.741960380756
+  }
+  file {
+    name: "blur/2185.bmp"
+    gold_score: 0.437869822485
+  }
+  file {
+    name: "blur/b00000005282.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005444.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000008528.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005149.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1102.bmp"
+    gold_score: 0.716490866993
+  }
+  file {
+    name: "blur/b00000002491.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1942.bmp"
+    gold_score: 0.500385901724
+  }
+  file {
+    name: "blur/2959.bmp"
+    gold_score: 0.238744533059
+  }
+  file {
+    name: "blur/b00000008789.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000007395.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009190.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1318.bmp"
+    gold_score: 0.660921018781
+  }
+  file {
+    name: "blur/3340.bmp"
+    gold_score: 0.140725495241
+  }
+  file {
+    name: "blur/b00000005229.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1941.bmp"
+    gold_score: 0.500643169539
+  }
+  file {
+    name: "blur/1497.bmp"
+    gold_score: 0.614870079753
+  }
+  file {
+    name: "blur/1498.bmp"
+    gold_score: 0.614612811937
+  }
+  file {
+    name: "blur/b00000000189.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000007743.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3752.bmp"
+    gold_score: 0.0347311551325
+  }
+  file {
+    name: "blur/b00000001252.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1841.bmp"
+    gold_score: 0.526369951119
+  }
+  file {
+    name: "blur/b00000005287.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3086.bmp"
+    gold_score: 0.206071520453
+  }
+  file {
+    name: "blur/3818.bmp"
+    gold_score: 0.0177514792899
+  }
+  file {
+    name: "blur/b00000002060.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1177.bmp"
+    gold_score: 0.697195780808
+  }
+  file {
+    name: "blur/65.bmp"
+    gold_score: 0.983277591973
+  }
+  file {
+    name: "blur/b00000004342.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000006800.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000001972.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1562.bmp"
+    gold_score: 0.598147671726
+  }
+  file {
+    name: "blur/2568.bmp"
+    gold_score: 0.339336249035
+  }
+  file {
+    name: "blur/3334.bmp"
+    gold_score: 0.142269102135
+  }
+  file {
+    name: "blur/850.bmp"
+    gold_score: 0.781322356573
+  }
+  file {
+    name: "blur/b00000004812.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/243.bmp"
+    gold_score: 0.937483920762
+  }
+  file {
+    name: "blur/1387.bmp"
+    gold_score: 0.643169539491
+  }
+  file {
+    name: "blur/3357.bmp"
+    gold_score: 0.136351942372
+  }
+  file {
+    name: "blur/b00000001439.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004788.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1166.bmp"
+    gold_score: 0.700025726782
+  }
+  file {
+    name: "blur/b00000000669.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3510.bmp"
+    gold_score: 0.0969899665552
+  }
+  file {
+    name: "blur/1801.bmp"
+    gold_score: 0.536660663751
+  }
+  file {
+    name: "blur/b00000005222.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2453.bmp"
+    gold_score: 0.368922047852
+  }
+  file {
+    name: "blur/2826.bmp"
+    gold_score: 0.27296115256
+  }
+  file {
+    name: "blur/1179.bmp"
+    gold_score: 0.696681245176
+  }
+  file {
+    name: "blur/b00000004928.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3264.bmp"
+    gold_score: 0.160277849241
+  }
+  file {
+    name: "blur/1655.bmp"
+    gold_score: 0.574221764857
+  }
+  file {
+    name: "blur/b00000000026.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2783.bmp"
+    gold_score: 0.284023668639
+  }
+  file {
+    name: "blur/1625.bmp"
+    gold_score: 0.581939799331
+  }
+  file {
+    name: "blur/b00000001164.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2947.bmp"
+    gold_score: 0.241831746848
+  }
+  file {
+    name: "blur/b00000000742.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005611.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000002379.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000001987.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004828.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2132.bmp"
+    gold_score: 0.451505016722
+  }
+  file {
+    name: "blur/b00000002097.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000010080.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000010211.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/199.bmp"
+    gold_score: 0.948803704657
+  }
+  file {
+    name: "blur/2294.bmp"
+    gold_score: 0.409827630563
+  }
+  file {
+    name: "blur/b00000000149.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3694.bmp"
+    gold_score: 0.0496526884487
+  }
+  file {
+    name: "blur/1988.bmp"
+    gold_score: 0.488551582197
+  }
+  file {
+    name: "blur/61.bmp"
+    gold_score: 0.984306663236
+  }
+  file {
+    name: "blur/b00000004864.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000146.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005565.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1710.bmp"
+    gold_score: 0.560072034988
+  }
+  file {
+    name: "blur/1541.bmp"
+    gold_score: 0.603550295858
+  }
+  file {
+    name: "blur/3635.bmp"
+    gold_score: 0.0648314895807
+  }
+  file {
+    name: "blur/1351.bmp"
+    gold_score: 0.652431180859
+  }
+  file {
+    name: "blur/b00000001400.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000319.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000010308.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1382.bmp"
+    gold_score: 0.64445587857
+  }
+  file {
+    name: "blur/442.bmp"
+    gold_score: 0.886287625418
+  }
+  file {
+    name: "blur/3221.bmp"
+    gold_score: 0.17134036532
+  }
+  file {
+    name: "blur/b00000001559.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1678.bmp"
+    gold_score: 0.568304605094
+  }
+  file {
+    name: "blur/b00000000076.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000010286.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000945.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009964.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3367.bmp"
+    gold_score: 0.133779264214
+  }
+  file {
+    name: "blur/b00000009416.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3346.bmp"
+    gold_score: 0.139181888346
+  }
+  file {
+    name: "blur/1419.bmp"
+    gold_score: 0.634936969385
+  }
+  file {
+    name: "blur/390.bmp"
+    gold_score: 0.899665551839
+  }
+  file {
+    name: "blur/b00000001458.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009499.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000003880.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004681.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2305.bmp"
+    gold_score: 0.40699768459
+  }
+  file {
+    name: "blur/2021.bmp"
+    gold_score: 0.480061744276
+  }
+  file {
+    name: "blur/b00000000277.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000001651.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000008471.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1794.bmp"
+    gold_score: 0.538461538462
+  }
+  file {
+    name: "blur/263.bmp"
+    gold_score: 0.932338564446
+  }
+  file {
+    name: "blur/2332.bmp"
+    gold_score: 0.400051453563
+  }
+  file {
+    name: "blur/b00000002521.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3315.bmp"
+    gold_score: 0.147157190635
+  }
+  file {
+    name: "blur/1863.bmp"
+    gold_score: 0.520710059172
+  }
+  file {
+    name: "blur/b00000007628.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1005.bmp"
+    gold_score: 0.741445845125
+  }
+  file {
+    name: "blur/b00000005702.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/89.bmp"
+    gold_score: 0.977103164394
+  }
+  file {
+    name: "blur/1647.bmp"
+    gold_score: 0.576279907384
+  }
+  file {
+    name: "blur/2.bmp"
+    gold_score: 0.999485464368
+  }
+  file {
+    name: "blur/1931.bmp"
+    gold_score: 0.503215847697
+  }
+  file {
+    name: "blur/b00000008609.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3716.bmp"
+    gold_score: 0.0439927965012
+  }
+  file {
+    name: "blur/b00000008469.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000001051.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005087.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000886.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1759.bmp"
+    gold_score: 0.547465912014
+  }
+  file {
+    name: "blur/b00000005131.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1039.bmp"
+    gold_score: 0.732698739388
+  }
+  file {
+    name: "blur/b00000000555.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/897.bmp"
+    gold_score: 0.769230769231
+  }
+  file {
+    name: "blur/386.bmp"
+    gold_score: 0.900694623103
+  }
+  file {
+    name: "blur/2039.bmp"
+    gold_score: 0.475430923591
+  }
+  file {
+    name: "blur/b00000005333.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000001857.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005795.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1687.bmp"
+    gold_score: 0.565989194752
+  }
+  file {
+    name: "blur/b00000001894.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009679.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2775.bmp"
+    gold_score: 0.286081811165
+  }
+  file {
+    name: "blur/b00000009426.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3456.bmp"
+    gold_score: 0.110882428608
+  }
+  file {
+    name: "blur/1923.bmp"
+    gold_score: 0.505273990224
+  }
+  file {
+    name: "blur/b00000003116.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005226.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005188.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009994.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000001441.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1538.bmp"
+    gold_score: 0.604322099305
+  }
+  file {
+    name: "blur/1281.bmp"
+    gold_score: 0.670439927965
+  }
+  file {
+    name: "blur/3348.bmp"
+    gold_score: 0.138667352714
+  }
+  file {
+    name: "blur/b00000001278.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3353.bmp"
+    gold_score: 0.137381013635
+  }
+  file {
+    name: "blur/b00000004907.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004230.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3035.bmp"
+    gold_score: 0.219192179058
+  }
+  file {
+    name: "blur/2950.bmp"
+    gold_score: 0.241059943401
+  }
+  file {
+    name: "blur/1483.bmp"
+    gold_score: 0.618471829174
+  }
+  file {
+    name: "blur/3529.bmp"
+    gold_score: 0.0921018780551
+  }
+  file {
+    name: "blur/b00000003895.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000002317.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2715.bmp"
+    gold_score: 0.301517880113
+  }
+  file {
+    name: "blur/2165.bmp"
+    gold_score: 0.443015178801
+  }
+  file {
+    name: "blur/2932.bmp"
+    gold_score: 0.245690764085
+  }
+  file {
+    name: "blur/546.bmp"
+    gold_score: 0.859531772575
+  }
+  file {
+    name: "blur/1.bmp"
+    gold_score: 0.999742732184
+  }
+  file {
+    name: "blur/b00000004703.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009047.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1767.bmp"
+    gold_score: 0.545407769488
+  }
+  file {
+    name: "blur/b00000004068.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1817.bmp"
+    gold_score: 0.532544378698
+  }
+  file {
+    name: "blur/3485.bmp"
+    gold_score: 0.10342166195
+  }
+  file {
+    name: "blur/575.bmp"
+    gold_score: 0.852071005917
+  }
+  file {
+    name: "blur/b00000003289.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000007873.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009683.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2460.bmp"
+    gold_score: 0.367121173141
+  }
+  file {
+    name: "blur/3551.bmp"
+    gold_score: 0.0864419861075
+  }
+  file {
+    name: "blur/416.bmp"
+    gold_score: 0.892976588629
+  }
+  file {
+    name: "blur/b00000001082.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000006455.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2630.bmp"
+    gold_score: 0.323385644456
+  }
+  file {
+    name: "blur/3216.bmp"
+    gold_score: 0.172626704399
+  }
+  file {
+    name: "blur/b00000001765.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000006734.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000993.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3678.bmp"
+    gold_score: 0.0537689735014
+  }
+  file {
+    name: "blur/3660.bmp"
+    gold_score: 0.0583997941857
+  }
+  file {
+    name: "blur/b00000002570.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/846.bmp"
+    gold_score: 0.782351427836
+  }
+  file {
+    name: "blur/35.bmp"
+    gold_score: 0.990995626447
+  }
+  file {
+    name: "blur/b00000004318.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2366.bmp"
+    gold_score: 0.391304347826
+  }
+  file {
+    name: "blur/726.bmp"
+    gold_score: 0.813223565732
+  }
+  file {
+    name: "blur/b00000003223.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004581.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2371.bmp"
+    gold_score: 0.390018008747
+  }
+  file {
+    name: "blur/3604.bmp"
+    gold_score: 0.0728067918703
+  }
+  file {
+    name: "blur/288.bmp"
+    gold_score: 0.925906869051
+  }
+  file {
+    name: "blur/2884.bmp"
+    gold_score: 0.258039619244
+  }
+  file {
+    name: "blur/2002.bmp"
+    gold_score: 0.484949832776
+  }
+  file {
+    name: "blur/b00000002445.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004696.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004884.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2977.bmp"
+    gold_score: 0.234113712375
+  }
+  file {
+    name: "blur/3732.bmp"
+    gold_score: 0.0398765114484
+  }
+  file {
+    name: "blur/b00000007392.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3720.bmp"
+    gold_score: 0.042963725238
+  }
+  file {
+    name: "blur/2499.bmp"
+    gold_score: 0.357087728325
+  }
+  file {
+    name: "blur/b00000000526.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/27.bmp"
+    gold_score: 0.993053768974
+  }
+  file {
+    name: "blur/534.bmp"
+    gold_score: 0.862618986365
+  }
+  file {
+    name: "blur/b00000000451.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000002214.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3688.bmp"
+    gold_score: 0.0511962953435
+  }
+  file {
+    name: "blur/1839.bmp"
+    gold_score: 0.526884486751
+  }
+  file {
+    name: "blur/3700.bmp"
+    gold_score: 0.0481090815539
+  }
+  file {
+    name: "blur/b00000006504.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2046.bmp"
+    gold_score: 0.473630048881
+  }
+  file {
+    name: "blur/b00000006237.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004238.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000001081.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000001297.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005364.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2310.bmp"
+    gold_score: 0.405711345511
+  }
+  file {
+    name: "blur/2193.bmp"
+    gold_score: 0.435811679959
+  }
+  file {
+    name: "blur/1120.bmp"
+    gold_score: 0.711860046308
+  }
+  file {
+    name: "blur/b00000005993.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009928.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000882.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1991.bmp"
+    gold_score: 0.48777977875
+  }
+  file {
+    name: "blur/b00000009646.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000002774.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/70.bmp"
+    gold_score: 0.981991252894
+  }
+  file {
+    name: "blur/b00000007638.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005200.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000008786.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/420.bmp"
+    gold_score: 0.891947517366
+  }
+  file {
+    name: "blur/2331.bmp"
+    gold_score: 0.400308721379
+  }
+  file {
+    name: "blur/b00000002479.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004089.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009820.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004596.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3053.bmp"
+    gold_score: 0.214561358374
+  }
+  file {
+    name: "blur/b00000004990.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3602.bmp"
+    gold_score: 0.0733213275019
+  }
+  file {
+    name: "blur/b00000002158.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3458.bmp"
+    gold_score: 0.110367892977
+  }
+  file {
+    name: "blur/b00000002822.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1620.bmp"
+    gold_score: 0.58322613841
+  }
+  file {
+    name: "blur/348.bmp"
+    gold_score: 0.910470800103
+  }
+  file {
+    name: "blur/b00000009337.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000856.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005097.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/367.bmp"
+    gold_score: 0.905582711603
+  }
+  file {
+    name: "blur/b00000005049.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2090.bmp"
+    gold_score: 0.462310264986
+  }
+  file {
+    name: "blur/b00000007980.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009142.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3621.bmp"
+    gold_score: 0.0684332390018
+  }
+  file {
+    name: "blur/b00000006309.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2558.bmp"
+    gold_score: 0.341908927193
+  }
+  file {
+    name: "blur/b00000004061.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000010181.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009810.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005371.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/318.bmp"
+    gold_score: 0.918188834577
+  }
+  file {
+    name: "blur/b00000005235.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000008274.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1782.bmp"
+    gold_score: 0.541548752251
+  }
+  file {
+    name: "blur/b00000004066.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000001383.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2524.bmp"
+    gold_score: 0.35065603293
+  }
+  file {
+    name: "blur/1100.bmp"
+    gold_score: 0.717005402624
+  }
+  file {
+    name: "blur/790.bmp"
+    gold_score: 0.796758425521
+  }
+  file {
+    name: "blur/b00000003889.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005253.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009915.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000006186.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3464.bmp"
+    gold_score: 0.108824286082
+  }
+  file {
+    name: "blur/695.bmp"
+    gold_score: 0.821198868022
+  }
+  file {
+    name: "blur/197.bmp"
+    gold_score: 0.949318240288
+  }
+  file {
+    name: "blur/3162.bmp"
+    gold_score: 0.186519166452
+  }
+  file {
+    name: "blur/b00000004278.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3664.bmp"
+    gold_score: 0.0573707229226
+  }
+  file {
+    name: "blur/3310.bmp"
+    gold_score: 0.148443529714
+  }
+  file {
+    name: "blur/1403.bmp"
+    gold_score: 0.639053254438
+  }
+  file {
+    name: "blur/b00000004831.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2441.bmp"
+    gold_score: 0.372009261641
+  }
+  file {
+    name: "blur/929.bmp"
+    gold_score: 0.760998199125
+  }
+  file {
+    name: "blur/b00000002075.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/22.bmp"
+    gold_score: 0.994340108052
+  }
+  file {
+    name: "blur/b00000010092.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3409.bmp"
+    gold_score: 0.122974015951
+  }
+  file {
+    name: "blur/b00000008258.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000006149.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000006712.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3074.bmp"
+    gold_score: 0.209158734242
+  }
+  file {
+    name: "blur/b00000008539.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000003222.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3426.bmp"
+    gold_score: 0.118600463082
+  }
+  file {
+    name: "blur/b00000008599.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004706.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000006681.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004300.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3298.bmp"
+    gold_score: 0.151530743504
+  }
+  file {
+    name: "blur/b00000007613.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1349.bmp"
+    gold_score: 0.652945716491
+  }
+  file {
+    name: "blur/b00000003770.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000007504.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000059.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3135.bmp"
+    gold_score: 0.193465397479
+  }
+  file {
+    name: "blur/b00000005372.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3797.bmp"
+    gold_score: 0.0231541034217
+  }
+  file {
+    name: "blur/3095.bmp"
+    gold_score: 0.203756110111
+  }
+  file {
+    name: "blur/833.bmp"
+    gold_score: 0.785695909442
+  }
+  file {
+    name: "blur/b00000007650.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000003366.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000007844.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1350.bmp"
+    gold_score: 0.652688448675
+  }
+  file {
+    name: "blur/b00000001408.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005255.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000007430.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000007453.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000002426.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1868.bmp"
+    gold_score: 0.519423720093
+  }
+  file {
+    name: "blur/2874.bmp"
+    gold_score: 0.260612297402
+  }
+  file {
+    name: "blur/2602.bmp"
+    gold_score: 0.330589143298
+  }
+  file {
+    name: "blur/783.bmp"
+    gold_score: 0.798559300232
+  }
+  file {
+    name: "blur/b00000008569.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005122.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1517.bmp"
+    gold_score: 0.609724723437
+  }
+  file {
+    name: "blur/2368.bmp"
+    gold_score: 0.390789812194
+  }
+  file {
+    name: "blur/3272.bmp"
+    gold_score: 0.158219706715
+  }
+  file {
+    name: "blur/1679.bmp"
+    gold_score: 0.568047337278
+  }
+  file {
+    name: "blur/b00000002197.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3452.bmp"
+    gold_score: 0.111911499871
+  }
+  file {
+    name: "blur/2232.bmp"
+    gold_score: 0.425778235143
+  }
+  file {
+    name: "blur/483.bmp"
+    gold_score: 0.87573964497
+  }
+  file {
+    name: "blur/b00000001941.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009026.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000003146.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2780.bmp"
+    gold_score: 0.284795472086
+  }
+  file {
+    name: "blur/b00000008123.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3055.bmp"
+    gold_score: 0.214046822742
+  }
+  file {
+    name: "blur/b00000001422.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1043.bmp"
+    gold_score: 0.731669668125
+  }
+  file {
+    name: "blur/1175.bmp"
+    gold_score: 0.697710316439
+  }
+  file {
+    name: "blur/2850.bmp"
+    gold_score: 0.266786724981
+  }
+  file {
+    name: "blur/1484.bmp"
+    gold_score: 0.618214561358
+  }
+  file {
+    name: "blur/3469.bmp"
+    gold_score: 0.107537947003
+  }
+  file {
+    name: "blur/b00000007785.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3201.bmp"
+    gold_score: 0.176485721636
+  }
+  file {
+    name: "blur/919.bmp"
+    gold_score: 0.763570877283
+  }
+  file {
+    name: "blur/1954.bmp"
+    gold_score: 0.497298687934
+  }
+  file {
+    name: "blur/2270.bmp"
+    gold_score: 0.416002058143
+  }
+  file {
+    name: "blur/b00000007563.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/123.bmp"
+    gold_score: 0.968356058657
+  }
+  file {
+    name: "blur/248.bmp"
+    gold_score: 0.936197581683
+  }
+  file {
+    name: "blur/b00000010176.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/297.bmp"
+    gold_score: 0.923591458709
+  }
+  file {
+    name: "blur/b00000001095.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000010360.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000003497.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1758.bmp"
+    gold_score: 0.54772317983
+  }
+  file {
+    name: "blur/b00000005185.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3091.bmp"
+    gold_score: 0.204785181374
+  }
+  file {
+    name: "blur/1312.bmp"
+    gold_score: 0.662464625675
+  }
+  file {
+    name: "blur/b00000007544.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1932.bmp"
+    gold_score: 0.502958579882
+  }
+  file {
+    name: "blur/b00000004633.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3703.bmp"
+    gold_score: 0.0473372781065
+  }
+  file {
+    name: "blur/b00000005661.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/513.bmp"
+    gold_score: 0.868021610497
+  }
+  file {
+    name: "blur/b00000008604.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1473.bmp"
+    gold_score: 0.621044507332
+  }
+  file {
+    name: "blur/b00000001053.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3157.bmp"
+    gold_score: 0.187805505531
+  }
+  file {
+    name: "blur/b00000002944.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000001958.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3805.bmp"
+    gold_score: 0.0210959608953
+  }
+  file {
+    name: "blur/b00000005061.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000951.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000714.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/700.bmp"
+    gold_score: 0.819912528943
+  }
+  file {
+    name: "blur/2439.bmp"
+    gold_score: 0.372523797273
+  }
+  file {
+    name: "blur/3526.bmp"
+    gold_score: 0.0928736815024
+  }
+  file {
+    name: "blur/3727.bmp"
+    gold_score: 0.0411628505274
+  }
+  file {
+    name: "blur/143.bmp"
+    gold_score: 0.963210702341
+  }
+  file {
+    name: "blur/b00000000081.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3356.bmp"
+    gold_score: 0.136609210188
+  }
+  file {
+    name: "blur/b00000005764.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2660.bmp"
+    gold_score: 0.315667609982
+  }
+  file {
+    name: "blur/3479.bmp"
+    gold_score: 0.104965268845
+  }
+  file {
+    name: "blur/3630.bmp"
+    gold_score: 0.0661178286596
+  }
+  file {
+    name: "blur/b00000000441.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000511.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000317.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3052.bmp"
+    gold_score: 0.21481862619
+  }
+  file {
+    name: "blur/3617.bmp"
+    gold_score: 0.069462310265
+  }
+  file {
+    name: "blur/b00000000847.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2926.bmp"
+    gold_score: 0.24723437098
+  }
+  file {
+    name: "blur/32.bmp"
+    gold_score: 0.991767429895
+  }
+  file {
+    name: "blur/b00000002324.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000008529.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3503.bmp"
+    gold_score: 0.0987908412658
+  }
+  file {
+    name: "blur/b00000009243.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000001017.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000007318.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004604.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2242.bmp"
+    gold_score: 0.423205556985
+  }
+  file {
+    name: "blur/1860.bmp"
+    gold_score: 0.521481862619
+  }
+  file {
+    name: "blur/1704.bmp"
+    gold_score: 0.561615641883
+  }
+  file {
+    name: "blur/1602.bmp"
+    gold_score: 0.587856959094
+  }
+  file {
+    name: "blur/734.bmp"
+    gold_score: 0.811165423206
+  }
+  file {
+    name: "blur/2390.bmp"
+    gold_score: 0.385129920247
+  }
+  file {
+    name: "blur/2234.bmp"
+    gold_score: 0.425263699511
+  }
+  file {
+    name: "blur/642.bmp"
+    gold_score: 0.834834062259
+  }
+  file {
+    name: "blur/b00000001289.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/58.bmp"
+    gold_score: 0.985078466684
+  }
+  file {
+    name: "blur/b00000005161.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000007510.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000162.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2446.bmp"
+    gold_score: 0.370722922562
+  }
+  file {
+    name: "blur/2471.bmp"
+    gold_score: 0.364291227167
+  }
+  file {
+    name: "blur/990.bmp"
+    gold_score: 0.745304862362
+  }
+  file {
+    name: "blur/b00000005309.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000007388.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009275.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1459.bmp"
+    gold_score: 0.624646256753
+  }
+  file {
+    name: "blur/3466.bmp"
+    gold_score: 0.10830975045
+  }
+  file {
+    name: "blur/b00000008129.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000002997.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005033.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004003.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005616.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3554.bmp"
+    gold_score: 0.0856701826601
+  }
+  file {
+    name: "blur/b00000002744.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1458.bmp"
+    gold_score: 0.624903524569
+  }
+  file {
+    name: "blur/b00000008640.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/723.bmp"
+    gold_score: 0.813995369179
+  }
+  file {
+    name: "blur/b00000006602.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3710.bmp"
+    gold_score: 0.0455364033959
+  }
+  file {
+    name: "blur/b00000000434.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2834.bmp"
+    gold_score: 0.270903010033
+  }
+  file {
+    name: "blur/b00000000275.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005790.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000002396.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2004.bmp"
+    gold_score: 0.484435297144
+  }
+  file {
+    name: "blur/b00000004719.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/800.bmp"
+    gold_score: 0.794185747363
+  }
+  file {
+    name: "blur/b00000003808.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/449.bmp"
+    gold_score: 0.884486750707
+  }
+  file {
+    name: "blur/3821.bmp"
+    gold_score: 0.0169796758426
+  }
+  file {
+    name: "blur/b00000005279.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3666.bmp"
+    gold_score: 0.056856187291
+  }
+  file {
+    name: "blur/2713.bmp"
+    gold_score: 0.302032415745
+  }
+  file {
+    name: "blur/b00000005396.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000860.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/316.bmp"
+    gold_score: 0.918703370208
+  }
+  file {
+    name: "blur/b00000007133.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1139.bmp"
+    gold_score: 0.706971957808
+  }
+  file {
+    name: "blur/b00000003896.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2902.bmp"
+    gold_score: 0.253408798559
+  }
+  file {
+    name: "blur/b00000007482.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009816.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2450.bmp"
+    gold_score: 0.369693851299
+  }
+  file {
+    name: "blur/b00000001225.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3432.bmp"
+    gold_score: 0.117056856187
+  }
+  file {
+    name: "blur/b00000004603.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004885.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1161.bmp"
+    gold_score: 0.701312065861
+  }
+  file {
+    name: "blur/b00000000492.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3322.bmp"
+    gold_score: 0.145356315925
+  }
+  file {
+    name: "blur/166.bmp"
+    gold_score: 0.957293542578
+  }
+  file {
+    name: "blur/1452.bmp"
+    gold_score: 0.626447131464
+  }
+  file {
+    name: "blur/b00000006385.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3293.bmp"
+    gold_score: 0.152817082583
+  }
+  file {
+    name: "blur/806.bmp"
+    gold_score: 0.792642140468
+  }
+  file {
+    name: "blur/1187.bmp"
+    gold_score: 0.69462310265
+  }
+  file {
+    name: "blur/3102.bmp"
+    gold_score: 0.2019552354
+  }
+  file {
+    name: "blur/b00000008272.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2677.bmp"
+    gold_score: 0.311294057113
+  }
+  file {
+    name: "blur/3140.bmp"
+    gold_score: 0.1921790584
+  }
+  file {
+    name: "blur/3040.bmp"
+    gold_score: 0.217905839979
+  }
+  file {
+    name: "blur/b00000005989.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/23.bmp"
+    gold_score: 0.994082840237
+  }
+  file {
+    name: "blur/1565.bmp"
+    gold_score: 0.597375868279
+  }
+  file {
+    name: "blur/b00000004694.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000009235.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1200.bmp"
+    gold_score: 0.691278621045
+  }
+  file {
+    name: "blur/b00000002587.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/504.bmp"
+    gold_score: 0.870337020839
+  }
+  file {
+    name: "blur/938.bmp"
+    gold_score: 0.758682788783
+  }
+  file {
+    name: "blur/363.bmp"
+    gold_score: 0.906611782866
+  }
+  file {
+    name: "blur/1854.bmp"
+    gold_score: 0.523025469514
+  }
+  file {
+    name: "blur/704.bmp"
+    gold_score: 0.818883457679
+  }
+  file {
+    name: "blur/b00000004018.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/631.bmp"
+    gold_score: 0.837664008233
+  }
+  file {
+    name: "blur/2866.bmp"
+    gold_score: 0.262670439928
+  }
+  file {
+    name: "blur/2514.bmp"
+    gold_score: 0.353228711088
+  }
+  file {
+    name: "blur/1718.bmp"
+    gold_score: 0.558013892462
+  }
+  file {
+    name: "blur/1887.bmp"
+    gold_score: 0.514535631592
+  }
+  file {
+    name: "blur/b00000005258.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000007300.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2726.bmp"
+    gold_score: 0.298687934139
+  }
+  file {
+    name: "blur/3185.bmp"
+    gold_score: 0.180602006689
+  }
+  file {
+    name: "blur/b00000009063.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004598.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2876.bmp"
+    gold_score: 0.26009776177
+  }
+  file {
+    name: "blur/2318.bmp"
+    gold_score: 0.403653202984
+  }
+  file {
+    name: "blur/624.bmp"
+    gold_score: 0.839464882943
+  }
+  file {
+    name: "blur/2674.bmp"
+    gold_score: 0.312065860561
+  }
+  file {
+    name: "blur/3462.bmp"
+    gold_score: 0.109338821713
+  }
+  file {
+    name: "blur/3628.bmp"
+    gold_score: 0.0666323642912
+  }
+  file {
+    name: "blur/3809.bmp"
+    gold_score: 0.0200668896321
+  }
+  file {
+    name: "blur/2437.bmp"
+    gold_score: 0.373038332905
+  }
+  file {
+    name: "blur/2722.bmp"
+    gold_score: 0.299717005403
+  }
+  file {
+    name: "blur/b00000001042.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005303.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3634.bmp"
+    gold_score: 0.0650887573964
+  }
+  file {
+    name: "blur/b00000008370.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000006565.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000008676.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004679.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1180.bmp"
+    gold_score: 0.69642397736
+  }
+  file {
+    name: "blur/1284.bmp"
+    gold_score: 0.669668124518
+  }
+  file {
+    name: "blur/b00000008473.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000007948.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000001244.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2202.bmp"
+    gold_score: 0.433496269617
+  }
+  file {
+    name: "blur/435.bmp"
+    gold_score: 0.888088500129
+  }
+  file {
+    name: "blur/244.bmp"
+    gold_score: 0.937226652946
+  }
+  file {
+    name: "blur/242.bmp"
+    gold_score: 0.937741188577
+  }
+  file {
+    name: "blur/622.bmp"
+    gold_score: 0.839979418575
+  }
+  file {
+    name: "blur/b00000000498.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/687.bmp"
+    gold_score: 0.823257010548
+  }
+  file {
+    name: "blur/b00000006711.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2036.bmp"
+    gold_score: 0.476202727039
+  }
+  file {
+    name: "blur/3800.bmp"
+    gold_score: 0.0223822999743
+  }
+  file {
+    name: "blur/2546.bmp"
+    gold_score: 0.344996140983
+  }
+  file {
+    name: "blur/3689.bmp"
+    gold_score: 0.0509390275277
+  }
+  file {
+    name: "blur/b00000002272.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000005148.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000007606.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000008618.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000002094.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2117.bmp"
+    gold_score: 0.455364033959
+  }
+  file {
+    name: "blur/b00000001369.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000022.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000371.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1278.bmp"
+    gold_score: 0.671211731412
+  }
+  file {
+    name: "blur/38.bmp"
+    gold_score: 0.990223823
+  }
+  file {
+    name: "blur/b00000001149.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000000063.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2687.bmp"
+    gold_score: 0.308721378955
+  }
+  file {
+    name: "blur/b00000000746.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000004161.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/659.bmp"
+    gold_score: 0.83046050939
+  }
+  file {
+    name: "blur/2999.bmp"
+    gold_score: 0.228453820427
+  }
+  file {
+    name: "blur/2225.bmp"
+    gold_score: 0.427579109853
+  }
+  file {
+    name: "blur/1376.bmp"
+    gold_score: 0.645999485464
+  }
+  file {
+    name: "blur/474.bmp"
+    gold_score: 0.878055055313
+  }
+  file {
+    name: "blur/1024.bmp"
+    gold_score: 0.736557756625
+  }
+  file {
+    name: "blur/1535.bmp"
+    gold_score: 0.605093902753
+  }
+  file {
+    name: "blur/b00000005628.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3406.bmp"
+    gold_score: 0.123745819398
+  }
+  file {
+    name: "blur/3543.bmp"
+    gold_score: 0.0885001286339
+  }
+  file {
+    name: "blur/3249.bmp"
+    gold_score: 0.164136866478
+  }
+  file {
+    name: "blur/189.bmp"
+    gold_score: 0.951376382815
+  }
+  file {
+    name: "blur/1352.bmp"
+    gold_score: 0.652173913043
+  }
+  file {
+    name: "blur/3380.bmp"
+    gold_score: 0.130434782609
+  }
+  file {
+    name: "blur/b00000001343.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1113.bmp"
+    gold_score: 0.713660921019
+  }
+  file {
+    name: "blur/b00000007230.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/815.bmp"
+    gold_score: 0.790326730126
+  }
+  file {
+    name: "blur/3131.bmp"
+    gold_score: 0.194494468742
+  }
+  file {
+    name: "blur/2651.bmp"
+    gold_score: 0.317983020324
+  }
+  file {
+    name: "blur/101.bmp"
+    gold_score: 0.974015950605
+  }
+  file {
+    name: "blur/b00000001104.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3858.bmp"
+    gold_score: 0.00746076665809
+  }
+  file {
+    name: "blur/b00000001466.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2840.bmp"
+    gold_score: 0.269359403139
+  }
+  file {
+    name: "blur/486.bmp"
+    gold_score: 0.874967841523
+  }
+  file {
+    name: "blur/3541.bmp"
+    gold_score: 0.0890146642655
+  }
+  file {
+    name: "blur/b00000000829.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/864.bmp"
+    gold_score: 0.777720607152
+  }
+  file {
+    name: "blur/b00000002923.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1441.bmp"
+    gold_score: 0.629277077438
+  }
+  file {
+    name: "blur/2006.bmp"
+    gold_score: 0.483920761513
+  }
+  file {
+    name: "blur/2229.bmp"
+    gold_score: 0.42655003859
+  }
+  file {
+    name: "blur/675.bmp"
+    gold_score: 0.826344224338
+  }
+  file {
+    name: "blur/653.bmp"
+    gold_score: 0.832004116285
+  }
+  file {
+    name: "blur/2782.bmp"
+    gold_score: 0.284280936455
+  }
+  file {
+    name: "blur/1422.bmp"
+    gold_score: 0.634165165938
+  }
+  file {
+    name: "blur/b00000004913.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2251.bmp"
+    gold_score: 0.420890146643
+  }
+  file {
+    name: "blur/3555.bmp"
+    gold_score: 0.0854129148444
+  }
+  file {
+    name: "blur/467.bmp"
+    gold_score: 0.879855930023
+  }
+  file {
+    name: "blur/3262.bmp"
+    gold_score: 0.160792384873
+  }
+  file {
+    name: "blur/3739.bmp"
+    gold_score: 0.0380756367378
+  }
+  file {
+    name: "blur/3742.bmp"
+    gold_score: 0.0373038332905
+  }
+  file {
+    name: "blur/2777.bmp"
+    gold_score: 0.285567275534
+  }
+  file {
+    name: "blur/190.bmp"
+    gold_score: 0.951119114999
+  }
+  file {
+    name: "blur/b00000007852.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1612.bmp"
+    gold_score: 0.585284280936
+  }
+  file {
+    name: "blur/b00000005808.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3518.bmp"
+    gold_score: 0.0949318240288
+  }
+  file {
+    name: "blur/1826.bmp"
+    gold_score: 0.530228968356
+  }
+  file {
+    name: "blur/b00000005047.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/1999.bmp"
+    gold_score: 0.485721636223
+  }
+  file {
+    name: "blur/2510.bmp"
+    gold_score: 0.354257782351
+  }
+  file {
+    name: "blur/3596.bmp"
+    gold_score: 0.0748649343967
+  }
+  file {
+    name: "blur/b00000005080.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000008737.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/b00000001267.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/971.bmp"
+    gold_score: 0.750192950862
+  }
+  file {
+    name: "blur/b00000008512.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/2880.bmp"
+    gold_score: 0.259068690507
+  }
+  file {
+    name: "blur/489.bmp"
+    gold_score: 0.874196038076
+  }
+  file {
+    name: "blur/b00000001863.bmp"
+    gold_score: 1.0
+  }
+  file {
+    name: "blur/3066.bmp"
+    gold_score: 0.211216876769
+  }
+  file {
+    name: "blur/1845.bmp"
+    gold_score: 0.525340879856
+  }
+  file {
+    name: "blur/1229.bmp"
+    gold_score: 0.683817854386
+  }
+}

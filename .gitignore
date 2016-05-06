@@ -26,3 +26,15 @@ model.rar
 /build_cpu_only
 /cmake
 /models
+
+*.pdb
+buildVS2013/caffelib/vc120.pdb
+*.csv
+*.bmp
+*.log
+examples/mnist/mnist-test-leveldb/MANIFEST-000150
+*.pdb
+examples/mnist/convert_mnist_data.lib
+*.exe
+*.pdb
+buildVS2013/caffelib/vc120.pdb

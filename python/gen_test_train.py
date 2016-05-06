@@ -3,7 +3,7 @@ import conf_pb2
 import os
 import random
 
-ONE_IN_ALL = 5
+ONE_IN_ALL = 10
 
 def read_proto_file(file_path, parser_object):
     file = open(file_path, "r")
@@ -46,7 +46,7 @@ def convert_test2proto(file_path, dst_test_path):
     tmp = []
     tmp.append("filelist {\n"+"  root: "+"\"C:/root_path/\"\n")
     for i in range(len(file_list)):
-        tmp.append("  file {\n    name: \""+str(file_list[i]+"\"\n    gold_score: "+str(score_list[i])+"\n  }\n"))
+        tmp.append("  file {\n    name: \""+"blur/"+str(file_list[i]+"\"\n    gold_score: "+str(score_list[i])+"\n  }\n"))
     tmp.append("}")
     file(dst_test_path, "w").writelines(tmp)
 
@@ -74,13 +74,13 @@ def convert_train2proto(total_files_path, subset_test_path, dst_train_path):
     tmp = []
     tmp.append("filelist {\n"+"  root: "+"\"C:/root_path/\"\n")
     for i in range(len(file_list)):
-        tmp.append("  file {\n    name: \""+str(file_list[i]+"\"\n    gold_score: "+str(score_list[i])+"\n  }\n"))
+        tmp.append("  file {\n    name: \""+"blur/"+str(file_list[i]+"\"\n    gold_score: "+str(score_list[i])+"\n  }\n"))
     tmp.append("}")
     file(dst_train_path, "w").writelines(tmp)
 
 if __name__ == '__main__':
-    file_path = 'D:\Project\caffe-windows-master\data\Blur5000\\test.proto'
-    dst_test_path = 'D:\Project\caffe-windows-master\data\Blur5000\\test_test.proto'
-    dst_train_path = 'D:\Project\caffe-windows-master\data\Blur5000\\train_train.proto'
+    file_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\Blur5000-\\blur.proto'
+    dst_test_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\Blur5000-\\test.proto'
+    dst_train_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\Blur5000-\\train.proto'
     convert_test2proto(file_path, dst_test_path)
     convert_train2proto(file_path, dst_test_path, dst_train_path)

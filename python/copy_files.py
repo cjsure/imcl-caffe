@@ -3,9 +3,10 @@ import conf_pb2
 import shutil
 import os
 
-file_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\Blur4000\\test.proto'
-dir_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\Blur4000\\'
-dst_path = "./test" # D:\Project\caffe-windows-master-zhangjunhui\python\test\\
+file_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\Blur5000-\\test.proto'
+dir_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\Blur5000-\\'
+dst_path = "D:\Project\caffe-windows-master-zhangjunhui\data\Blur5000-\\test\\"
+phase = 'test'
 
 def read_proto_file(file_path, parser_object):
     file = open(file_path, "r")
@@ -23,17 +24,16 @@ def get_name_from_proto(file_path):
     return name
 
 def copy_files(file_path):
-    file_list = []
     sum = 0
     file_list = get_name_from_proto(file_path)
     if not os.path.isdir(dst_path):
         os.mkdir(dst_path)
     for file in file_list:
         tmp_file = dir_path + file
-        shutil.copy(tmp_file, "./"+file)
-        print "./"+file
+        shutil.copy(tmp_file, dst_path + file)
+        print dst_path + file
         sum += 1
-    shutil.copy(file_path,"./")
+    shutil.copy(file_path,dst_path + phase + '.proto')
     print sum
 
 if __name__ == '__main__':

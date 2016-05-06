@@ -8,9 +8,9 @@ import img_mani
 import label_file_util as label_util
 import random
 
-ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/Blur4000/'
-PHASE = 'train'
-LABEL_FILE = 'D:/Project/caffe-windows-master-zhangjunhui/data/Blur4000/' + PHASE + '.proto'
+ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/Blur5000-/'
+PHASE = 'test'
+LABEL_FILE = 'D:/Project/caffe-windows-master-zhangjunhui/data/Blur5000-/' + PHASE + '.proto'
 
 SIZE = 170 # fixed size to all images
 HD5SIZE = 800
@@ -66,12 +66,10 @@ def augment_img(img):
     img_augs = np.stack(img_augs)
     return img_augs
 
-
 def get_empty_XY():
     X = np.empty(shape=(0, 3, SIZE, SIZE))
     y = np.empty(shape = 0)
     return X, y
-
 
 def write_h5names(filename, h5name_list):
     with open(filename, 'w') as L:
