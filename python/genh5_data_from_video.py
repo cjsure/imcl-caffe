@@ -9,9 +9,9 @@ import random
 import cv2
 import time
 
-ROOT = 'C:/Users/zhang/Pictures'
-PHASE = 'test'
-LABEL_FILE = 'C:/Users/zhang/Pictures/' + PHASE + '.proto'
+ROOT = 'C:\\Users\\zhang\\Documents\\caffe-tools\\data\\3dcnn'
+PHASE = 'train'
+LABEL_FILE = 'C:\\Users\\zhang\\Documents\\caffe-tools\\data\\3dcnn\\' + PHASE + '.proto'
 
 SIZE = 170 # fixed size to all images
 HD5SIZE = 800
@@ -118,8 +118,8 @@ def read_video(file):
     images = []
     for i in xrange(0, num_frames):
         ret, frame = video.read()
-        fr = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        images.append(fr)
+        #frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        images.append(frame)
     end = time.time()
     seconds = end - start
     print "Time taken : {0} seconds".format(seconds)
@@ -139,19 +139,18 @@ def convert2h5data():
 
     for path, y in zip(file_list, score_list):
         video_path = ROOT + '/' +path
+        if not os.path.exists(video_path):
+            print 'not exost:' + video_path
+            continue
         print 'processing '+ str(count) + ':' + video_path
         imgs = read_video(video_path)
         imgs = resize_batch(imgs)
         imgs = np.stack(imgs)
         if imgs == []:
             continue
-        for im in imgs:
-            skio.imshow(im)
-            skio.show()
         dice = np.random.rand()
         if dice > 0.95:
-           save_batch(os.path.split(video_path)[1], imgs, additional_name_info=str(y))
-
+            save_batch(os.path.split(video_path)[1], imgs, additional_name_info=str(y))
         imgs = np.swapaxes(imgs, 1, 3)
         imgs = np.swapaxes(imgs, 2, 3)
         y = np.repeat(y, imgs.shape[0], axis=0)
