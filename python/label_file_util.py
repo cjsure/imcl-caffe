@@ -56,7 +56,7 @@ def load_gt_dict(LABEL_FILE, split_name=False):
 def convert2plaintxt(file_path, dst_path):
     file_list, score_list = get_name_score_from_proto(file_path)
     tmp = []
-    for i in range(0, len(file_list), 3):
+    for i in range(len(file_list)):
         tmp.append(str(file_list[i])+"\t"+str(score_list[i])+"\n")
     file(dst_path, 'w').writelines(tmp)
 
@@ -74,6 +74,6 @@ def convert2plaintxt(file_path, dst_path):
     return score_record'''
 
 if __name__ == '__main__':
-    file_path = 'D:\Project\caffe-windows-master\data\Blur2000\\test.proto'
-    dst_path = 'D:\Project\caffe-windows-master\data\Blur2000\\test.txt'
+    file_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\gray\\test\\test.proto'
+    dst_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\gray\\test\\test.txt'
     convert2plaintxt(file_path, dst_path)

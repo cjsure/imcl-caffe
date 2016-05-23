@@ -1,7 +1,7 @@
 from numpy import *
 
-file_path = "D:/Project/caffe-windows-master-zhangjunhui/data/blur5000/others/pure.txt"
-dst_path = "D:/Project/caffe-windows-master-zhangjunhui/data/blur5000/others/pure.proto"
+file_path = "D:/Project/caffe-windows-master-zhangjunhui/data/test/norm2016/norm.txt"
+dst_path = "D:/Project/caffe-windows-master-zhangjunhui/data/test/norm.proto"
 
 def score_bound(score, max_score, min_score):
     tmp_score = (score - min_score)/(max_score - min_score)
@@ -14,12 +14,12 @@ def max_min(file_path):
     max = -inf
     min = inf
     for line in lines:
-        sp = line.split(' ')
+        sp = line.split('\t')
         if max < float(sp[1]):
             max = float(sp[1]);
         if min > float(sp[1]):
             min = float(sp[1]);
-    print 'max:' + str(max) + 'min:' + str(min)
+    print 'max:' + str(max) + ' min:' + str(min)
     return max, min
 
 def load_new_format_labelscore(file_path):
@@ -29,7 +29,7 @@ def load_new_format_labelscore(file_path):
     score = []
     #max, min = max_min(file_path)
     for line in lines:
-        sp = line.split(' ')
+        sp = line.split('\t')
         img_name.append(str(sp[0]))
         #score.append(score_bound(float(sp[1]), max, min))
         score.append(float(1))
@@ -40,7 +40,7 @@ def convet2standard(file_path, dst_path):
     tmp = []
     tmp.append("filelist {\n"+"  root: "+"\"C:/root_path/\"\n")
     for i in range(len(file_list)):
-        tmp.append("  file {\n    name: \""+str(file_list[i])+"\"\n    gold_score: "+str(score_list[i])+"\n  }\n")
+        tmp.append("  file {\n    name: \"gray/"+str(file_list[i])+"\"\n    gold_score: "+str(score_list[i])+"\n  }\n")
         #tmp.append("  file {\n    name: \""+"blur/"+str(file_list[i]+"\"\n    gold_score: "+str(score_list[i])+"\n  }\n"))
     tmp.append("}")
     file(dst_path, "w").writelines(tmp)

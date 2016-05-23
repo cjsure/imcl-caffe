@@ -3,7 +3,7 @@ import conf_pb2
 import os
 import random
 
-ONE_IN_ALL = 10
+ONE_IN_ALL = 5
 
 def read_proto_file(file_path, parser_object):
     file = open(file_path, "r")
@@ -29,13 +29,13 @@ def get_random_files_from_proto(file_path):
     tmp_score_list = []
     while(sum < len(file_list) / ONE_IN_ALL):
         flag = 0
-        sum = sum + 1
         index = random.randint(0,len(file_list)-1)
         for file in tmp_file_list:
             if file == file_list[index]:
                 flag = 1
                 break
         if flag == 0:
+            sum = sum + 1
             tmp_file_list.append(file_list[index])
             tmp_score_list.append(score_list[index])
     print "sum of test_files_num:"+str(len(tmp_file_list))
@@ -46,7 +46,7 @@ def convert_test2proto(file_path, dst_test_path):
     tmp = []
     tmp.append("filelist {\n"+"  root: "+"\"C:/root_path/\"\n")
     for i in range(len(file_list)):
-        tmp.append("  file {\n    name: \""+"blur/"+str(file_list[i]+"\"\n    gold_score: "+str(score_list[i])+"\n  }\n"))
+        tmp.append("  file {\n    name: \""+str(file_list[i]+"\"\n    gold_score: "+str(score_list[i])+"\n  }\n"))
     tmp.append("}")
     file(dst_test_path, "w").writelines(tmp)
 
@@ -58,12 +58,12 @@ def get_train_name_score_from_restfiles(total_files_path, subset_test_path):
     sum = 0
     for index in range(len(total_file_list)):
         flag = 0
-        sum = sum + 1
         for test_file in subset_file_list:
             if(test_file == total_file_list[index]):
-                flag =1
+                flag = 1
                 break
         if flag == 0:
+            sum = sum + 1
             tmp_file_list.append(total_file_list[index])
             tmp_score_list.append(total_score_list[index])
     print "sum of train_files_num:" + str(len(tmp_file_list))
@@ -74,13 +74,13 @@ def convert_train2proto(total_files_path, subset_test_path, dst_train_path):
     tmp = []
     tmp.append("filelist {\n"+"  root: "+"\"C:/root_path/\"\n")
     for i in range(len(file_list)):
-        tmp.append("  file {\n    name: \""+"blur/"+str(file_list[i]+"\"\n    gold_score: "+str(score_list[i])+"\n  }\n"))
+        tmp.append("  file {\n    name: \""+str(file_list[i]+"\"\n    gold_score: "+str(score_list[i])+"\n  }\n"))
     tmp.append("}")
     file(dst_train_path, "w").writelines(tmp)
 
 if __name__ == '__main__':
-    file_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\Blur5000-\\blur.proto'
-    dst_test_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\Blur5000-\\test.proto'
-    dst_train_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\Blur5000-\\train.proto'
+    file_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\gray\\gray.proto'
+    dst_test_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\gray\\test.proto'
+    dst_train_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\gray\\train.proto'
     convert_test2proto(file_path, dst_test_path)
     convert_train2proto(file_path, dst_test_path, dst_train_path)
