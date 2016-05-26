@@ -11,14 +11,14 @@ import csv
 
 #caffe_root = './caffe'
 NET_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\train_val-deploy.prototxt'
-PARAM_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\alexnet_train201605051021_iter_100000.caffemodel'
+PARAM_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\alexnet_train201605241647_iter_100000.caffemodel'
 #img_path = 'D:/Project/caffe-windows-master/data/Blur1000/test/132.BMP'
-IMAGE_ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/test/gray/'
-GROUND_TRUTH = 'D:/Project/caffe-windows-master-zhangjunhui/data/test/new.proto'
+IMAGE_ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/blur5000-/test/'
+GROUND_TRUTH = 'D:/Project/caffe-windows-master-zhangjunhui/data/blur5000-/test.proto'
 SZ = 170#227|170
 debug = False
 debug_num = -100
-back_end = '*.jpg'
+back_end = '*.bmp'
 
 ###################################set mode
 caffe.set_mode_gpu()
