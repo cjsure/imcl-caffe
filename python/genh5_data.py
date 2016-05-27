@@ -36,6 +36,14 @@ def load_image(img_path):
     img = caffe.io.load_image(img_path)
     return img
 
+def cut_img(img):
+    #cut img to avoid words influence
+    lenth = len(img[0,:,0])
+    width = len(img[:,0,0])
+    x = random.randint(100, width - 2*SIZE-100)
+    y = random.randint(100, lenth - 3*SIZE-100)
+    img = img[x:x+2*SIZE,y:y+2*SIZE,:]
+    return img
 
 def load_caffe_format_img(img_path):
     img = load_image(img_path)
@@ -107,6 +115,7 @@ def convert2h5data():
     for path, y in zip(file_list, score_list):
         print 'processing '+ str(count) + ':' + path
         img = load_image(ROOT + os.sep + path)
+        img = cut_img(img)
         if img is False:
             continue
         imgs = augment_img(img)

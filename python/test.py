@@ -17,10 +17,9 @@ def cut_img(img_path):
     img = load_image(img_path)
     lenth = len(img[0,:,0])
     width = len(img[:,0,0])
-    x = random.randint(0, width - SIZE)
-    y = random.randint(0, lenth - SIZE)
-    print x,y
-    img = img[x:x+SIZE,y:y+SIZE,:]
+    x = random.randint(100, width - 2*SIZE-100)
+    y = random.randint(100, lenth - 3*SIZE-100)
+    img = img[x:x+2*SIZE,y:y+2*SIZE,:]
     return img
 
 def read_img(img_path):
