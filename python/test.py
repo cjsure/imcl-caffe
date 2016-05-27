@@ -13,6 +13,7 @@ def load_image(img_path):
     img = caffe.io.load_image(img_path)
     return img
 
+
 def cut_img(img_path):
     img = load_image(img_path)
     lenth = len(img[0,:,0])
