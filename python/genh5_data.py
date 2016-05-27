@@ -8,9 +8,9 @@ import img_mani
 import label_file_util as label_util
 import random
 
-ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/blur2000/'
+ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/blur5000-/'
 PHASE = 'train'
-LABEL_FILE = 'D:/Project/caffe-windows-master-zhangjunhui/data/blur2000/' + PHASE + '.proto'
+LABEL_FILE = 'D:/Project/caffe-windows-master-zhangjunhui/data/blur5000-/' + PHASE + '.proto'
 
 SIZE = 170 # fixed size to all images
 HD5SIZE = 800
@@ -40,8 +40,10 @@ def cut_img(img):
     #cut img to avoid words influence
     lenth = len(img[0,:,0])
     width = len(img[:,0,0])
+    if (width - 2*SIZE - 100) < 0 or (lenth - 2*SIZE-100) < 0:
+        return img
     x = random.randint(100, width - 2*SIZE-100)
-    y = random.randint(100, lenth - 3*SIZE-100)
+    y = random.randint(100, lenth - 2*SIZE-100)
     img = img[x:x+2*SIZE,y:y+2*SIZE,:]
     return img
 

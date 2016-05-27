@@ -13,10 +13,10 @@ import csv
 
 #caffe_root = './caffe'
 NET_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\train_val-deploy.prototxt'
-PARAM_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\alexnet_train201605262104_iter_80000.caffemodel'
+PARAM_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\alexnet_train201605262104_iter_10000.caffemodel'
 #img_path = 'D:/Project/caffe-windows-master/data/Blur1000/test/132.BMP'
-IMAGE_ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/Blur5000-/test/'
-GROUND_TRUTH = 'test.proto'
+IMAGE_ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/gblur/'
+GROUND_TRUTH = 'mos.proto'
 SZ = 170#227|170
 debug = False
 debug_num = -100
