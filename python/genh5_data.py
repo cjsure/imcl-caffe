@@ -117,7 +117,7 @@ def convert2h5data():
     for path, y in zip(file_list, score_list):
         print 'processing '+ str(count) + ':' + path
         img = load_image(ROOT + os.sep + path)
-        img = cut_img(img)
+        #img = cut_img(img)
         if img is False:
             continue
         imgs = augment_img(img)
