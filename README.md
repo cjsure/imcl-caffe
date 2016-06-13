@@ -1,7 +1,7 @@
 Forked from https://www.github.com/BVLC/caffe master branch in 2015/11/09 .
 
-#imcl-caffe
-安装:http://blog.csdn.net/happynear/article/details/45372231
+#caffe环境搭建
+中文博客:http://blog.csdn.net/happynear/article/details/45372231
 
 #python环境搭建
 1.安装Anaconda
