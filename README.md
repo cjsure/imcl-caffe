@@ -1,6 +1,6 @@
 Forked from https://www.github.com/BVLC/caffe master branch in 2015/11/09 .
 
-#imcl
+#imcl-caffe
 =========================
 1. 安装VS2013，安装[CUDA7.5](http://developer.download.nvidia.com/compute/cuda/7.5/Prod/local_installers/cuda_7.5.18_windows.exe)
 2. 安装好上述软件之后，下载本项目（打开项目时，如果出现问题，多由CUDA版本不对导致，解决办法可以步骤参照[博文](http://blog.csdn.net/happynear/article/details/45372231)
