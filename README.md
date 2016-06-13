@@ -1,6 +1,10 @@
-Forked from https://www.github.com/BVLC/caffe master branch in 2015/11/09 .
-
 #caffe环境搭建
+1.安装CUDA7.5
+
+2.把3rdparty解压到根目录
+
+3.打开工程文件buildVS2013/MainBuilder.sln,重新生成所有工程
+
 中文博客:http://blog.csdn.net/happynear/article/details/45372231
 
 #python环境搭建
