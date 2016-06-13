@@ -1,9 +1,11 @@
 #caffe环境搭建
 1.安装CUDA7.5
 
-2.把3rdparty解压到根目录
+2.把3rdparty[http://pan.baidu.com/s/1c2qgaZI]解压到根目录
 
-3.打开工程文件buildVS2013/MainBuilder.sln,重新生成所有工程
+3.双击./src/caffe/proto/extract_proto.bat批处理文件来生成caffe.pb.h和caffe.pb.cc两个c++文件，和caffe_pb2.py这个Python使用的文件
+
+4.打开工程文件buildVS2013/MainBuilder.sln,重新生成所有工程
 
 中文博客:http://blog.csdn.net/happynear/article/details/45372231
 
