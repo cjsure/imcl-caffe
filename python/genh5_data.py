@@ -8,9 +8,9 @@ import img_mani
 import label_file_util as label_util
 import random
 
-ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/blur5000-/'
+ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/gray/'
 PHASE = 'train'
-LABEL_FILE = 'D:/Project/caffe-windows-master-zhangjunhui/data/blur5000-/' + PHASE + '.proto'
+LABEL_FILE = 'D:/Project/caffe-windows-master-zhangjunhui/data/gray/' + PHASE + '.proto'
 
 SIZE = 170 # fixed size to all images
 HD5SIZE = 800
