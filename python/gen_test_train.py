@@ -82,5 +82,5 @@ if __name__ == '__main__':
     file_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\gray\\gray.proto'
     dst_test_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\gray\\test.proto'
     dst_train_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\gray\\train.proto'
-    convert_test2proto(file_path, dst_test_path)
+    #convert_test2proto(file_path, dst_test_path)
     convert_train2proto(file_path, dst_test_path, dst_train_path)

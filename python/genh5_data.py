@@ -9,7 +9,7 @@ import label_file_util as label_util
 import random
 
 ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/gray/'
-PHASE = 'train'
+PHASE = 'train_4'
 LABEL_FILE = 'D:/Project/caffe-windows-master-zhangjunhui/data/gray/' + PHASE + '.proto'
 
 SIZE = 170 # fixed size to all images
