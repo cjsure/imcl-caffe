@@ -1,3 +1,5 @@
+#-*- coding:UTF-8 -*-
+
 import caffe
 import numpy as np
 import os
@@ -10,18 +12,20 @@ import matplotlib.pyplot as plt
 import datetime
 import time
 import csv
+import utils.roc as roc
 
 #caffe_root = './caffe'
-NET_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\train_val-deploy.prototxt'
-PARAM_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\alexnet_train201606191332_iter_300000.caffemodel'
+NET_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\leaf\\201608091740\\train_val-deploy.prototxt'
+PARAM_FILE = 'D:\\Project\\caffe-windows-master-zhangjunhui\\models\\bvlc_alexnet-sur\\leaf\\201608091740\\alexnet_train201608091740_iter_240000.caffemodel'
 #img_path = 'D:/Project/caffe-windows-master/data/Blur1000/test/132.BMP'
-IMAGE_ROOT = 'D:/Project/caffe-windows-master-zhangjunhui/data/gray/test/'
-GROUND_TRUTH = 'test.proto'
+IMAGE_ROOT = 'D:\\Project\\caffe-windows-master-zhangjunhui\\data\\leaf\\'
+GROUND_TRUTH = 'train.proto'
 
 SZ = 170#227|170
 debug = False
 debug_num = -100
-back_end = '*.bmp'
+back_end = '*.jpg'
+result = []
 
 ###################################set mode
 caffe.set_mode_gpu()
@@ -65,22 +69,26 @@ def predict_batch(file_path):
         name_list.append(IMAGE_ROOT+str(file_list[i]))
     score_record = {}
     import time
-
+    start = time.time()
     if debug:
         name_list = name_list[debug_num:]
-
+    sum = 0
     for path in name_list:
+        sum = sum + 1
         if not os.path.exists(path):
-            print 'not exost:' + path
+            print 'not exist:' + path
             continue
-        print 'predicting {}'.format(path)
+        print 'predicting %d:' % sum + ' {}'.format(path)
         name = os.path.split(path)[1]
-        tStart = time.time()
+        # tStart = time.time()
         score = predict(path)
-        tEnd = time.time()
-        print "It cost %f sec" % (tEnd - tStart)
+        # tEnd = time.time()
+        # print "It cost %f sec" % (tEnd - tStart)
         score_record[name] = np.min((np.max((score, 0)), 1))
-        print "score:%f" % score_record[name]
+        # print "score:%f" % score_record[name]
+    end = time.time()
+    print(end- start )
+    result.append(end-start)
     return score_record
 
 
@@ -110,10 +118,44 @@ def test_case1():
     v1, v2 = intersect(dict1, dict2)
     print stats.spearmanr(v1, v2)[0]
 
+def GetRates(predict, truth):
+    tpr = [0.0]  # true positive rate
+    fpr = [0.0]  # false positive rate
+    nexamples = len(truth)
+    threshhold = 0.0
+    best_threshhold = 0.0
+    flag_threshhold = 0.0
+    min_dist = 200.0
+    while(threshhold < 1.0):
+        threshhold = threshhold + 0.01
+        foundactives = 0.0
+        founddecoys = 0.0
+        for name in truth:
+            if(float(predict[name]) >= threshhold) and (float(truth[name]) == 1.0):
+                foundactives += 1.0#计算真正预测个数
+            if((float(predict[name]) >= threshhold)) and (float(truth[name]) < 1.0):
+                founddecoys += 1.0#计算假正预测个数
+        tp = foundactives / float(nexamples)
+        fp = founddecoys / float(nexamples)
+        distense = (fp-0)*(fp-0)+(tp-1)*(tp-1)#fpr横坐标，tpr纵坐标，求点(fp, tp)到最大阈值（0,1）的距离
+        if(distense < min_dist):
+            btp = tp
+            bfp = fp
+            min_dist = distense
+            flag_threshhold = threshhold
+        #print tp, fp, min_dist, flag_threshhold, threshhold
+        tpr.append(tp)
+        fpr.append(fp)
+    best_threshhold = flag_threshhold
+    print 'btp: %,bfp: %' % btp ,bfp
+    return tpr, fpr, best_threshhold
+
 def process():
     score = predict_batch(IMAGE_ROOT+GROUND_TRUTH)
     #gt = label_util.load_groundtruth(GROUND_TRUTH)
     gt = label_util.load_gt_dict(IMAGE_ROOT+GROUND_TRUTH, split_name=True)
+    tpr, fpr, threshhold = GetRates(score, gt)
+    print 'threshhold: %f' % threshhold
     inter_score, inter_gt, interkey = intersect(score, gt)
     sorted_ind = np.argsort(inter_gt)
     inter_gt = inter_gt[sorted_ind]

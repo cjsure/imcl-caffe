@@ -73,7 +73,26 @@ def convert2plaintxt(file_path, dst_path):
         score_record[name] = score
     return score_record'''
 
+def read_line(file_path, dst_path):
+    with open(file_path, 'r') as T:
+        lines = T.readlines()
+    img_name = []
+    score = []
+    for line in lines:
+        if line == '\n':
+            continue
+        sp = line.split('\t')
+        img_name.append(str(sp[0]))
+        score.append(float(sp[1]))
+    tmp = []
+    for i in range(len(img_name)):
+        tmp.append(str(img_name[i])+"\t"+str(score[i])+"\n")
+    file(dst_path, 'w').writelines(tmp)
+
 if __name__ == '__main__':
     file_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\gray\\test\\test.proto'
     dst_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\gray\\test\\test.txt'
-    convert2plaintxt(file_path, dst_path)
+    #convert2plaintxt(file_path, dst_path)
+    FILE_PATH = "D:/Project/caffe-windows-master-zhangjunhui/data/leaf/leaf.txt"
+    DST_PATH = "D:/Project/caffe-windows-master-zhangjunhui/data/leaf/leaf_.txt"
+    read_line(FILE_PATH, DST_PATH)

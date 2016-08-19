@@ -1,7 +1,7 @@
 from numpy import *
 
-file_path = "D:/Project/caffe-windows-master-zhangjunhui/data/test/norm2016/norm.txt"
-dst_path = "D:/Project/caffe-windows-master-zhangjunhui/data/test/norm.proto"
+file_path = "D:/Project/caffe-windows-master-zhangjunhui/data/leaf/leaf_.txt"
+dst_path = "D:/Project/caffe-windows-master-zhangjunhui/data/leaf/leaf.proto"
 
 def score_bound(score, max_score, min_score):
     tmp_score = (score - min_score)/(max_score - min_score)
@@ -32,7 +32,7 @@ def load_new_format_labelscore(file_path):
         sp = line.split('\t')
         img_name.append(str(sp[0]))
         #score.append(score_bound(float(sp[1]), max, min))
-        score.append(float(1))
+        score.append(float(sp[1]))
     return img_name, score
 
 def convet2standard(file_path, dst_path):
@@ -40,7 +40,7 @@ def convet2standard(file_path, dst_path):
     tmp = []
     tmp.append("filelist {\n"+"  root: "+"\"C:/root_path/\"\n")
     for i in range(len(file_list)):
-        tmp.append("  file {\n    name: \"gray/"+str(file_list[i])+"\"\n    gold_score: "+str(score_list[i])+"\n  }\n")
+        tmp.append("  file {\n    name: \"leaf/"+str(file_list[i])+"\"\n    gold_score: "+str(score_list[i])+"\n  }\n")
         #tmp.append("  file {\n    name: \""+"blur/"+str(file_list[i]+"\"\n    gold_score: "+str(score_list[i])+"\n  }\n"))
     tmp.append("}")
     file(dst_path, "w").writelines(tmp)
@@ -49,10 +49,9 @@ def avi2png(file_path):
     avi_name_list, score_list = load_new_format_labelscore(file_path)
     tmp_name = []
     for i in range(len(avi_name_list)):
-        tmp_name.append(avi_name_list[i].split(".")[-2]+'.bmp\t' + str(score_list[i]) + '\n')
+        tmp_name.append(avi_name_list[i].split(".")[-2]+'.jpg\t' + str(score_list[i]) + '\n')
         print tmp_name[i]
     file(dst_path, "w").writelines(tmp_name)
-
 
 if __name__ == '__main__':
     #avi2png(file_path)

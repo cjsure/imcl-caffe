@@ -49,7 +49,7 @@ def read_video(file):
     return images
 
 def showIM():
-    imgs = read_video('C:\\Users\\zhang\\Pictures\\test\\1.avi')
+    imgs = read_video('C:\\Users\\Administrator\\Documents\\GitHub\3dcnn\data')
     for im in imgs:
         skio.imshow(im)
         skio.show()

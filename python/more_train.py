@@ -43,6 +43,6 @@ def convert2proto(file_path, dst_test_path):
 
 
 if __name__ == '__main__':
-    train_proto = 'D:\Project\caffe-windows-master-zhangjunhui\data\gray\\train.proto'
-    dst_train_path = 'D:\Project\caffe-windows-master-zhangjunhui\data\gray\\train_'+str(ALL)+'.proto'
+    train_proto = 'D:\\Project\\caffe-windows-master-zhangjunhui\\data\\gray\\train.proto'
+    dst_train_path = 'D:\\Project\\caffe-windows-master-zhangjunhui\\data\gray\\train_'+str(ALL)+'.proto'
     convert2proto(train_proto, dst_train_path)
