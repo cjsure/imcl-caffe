@@ -38,3 +38,4 @@ examples/mnist/convert_mnist_data.lib
 *.exe
 *.pdb
 buildVS2013/caffelib/vc120.pdb
+/python/pxp
